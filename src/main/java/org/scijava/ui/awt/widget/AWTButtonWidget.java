@@ -87,7 +87,7 @@ public class AWTButtonWidget extends AWTInputWidget<Button> implements
 
 	@Override
 	public boolean supports(final WidgetModel model) {
-		return model.isType(Button.class);
+		return super.supports(model) && model.isType(Button.class);
 	}
 
 	// -- AbstractUIInputWidget methods ---
