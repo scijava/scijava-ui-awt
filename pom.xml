@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>scijava-ui-awt</artifactId>
-	<version>0.1.2-SNAPSHOT</version>
+	<version>0.1.2</version>
 
 	<name>SciJava UI: AWT</name>
 	<description>SciJava user interface components for Java AWT.</description>
@@ -104,7 +104,7 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 	<scm>
 		<connection>scm:git:git://github.com/scijava/scijava-ui-awt</connection>
 		<developerConnection>scm:git:git@github.com:scijava/scijava-ui-awt</developerConnection>
-		<tag>HEAD</tag>
+		<tag>scijava-ui-awt-0.1.2</tag>
 		<url>https://github.com/scijava/scijava-ui-awt</url>
 	</scm>
 
