@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>scijava-ui-awt</artifactId>
-	<version>0.1.2-SNAPSHOT</version>
+	<version>0.1.3-SNAPSHOT</version>
 
 	<name>SciJava UI: AWT</name>
 	<description>SciJava user interface components for Java AWT.</description>
