@@ -38,7 +38,6 @@ import java.awt.Toolkit;
 import javax.swing.JDialog;
 import javax.swing.JOptionPane;
 
-import org.scijava.Priority;
 import org.scijava.module.Module;
 import org.scijava.module.process.PreprocessorPlugin;
 import org.scijava.plugin.Plugin;
