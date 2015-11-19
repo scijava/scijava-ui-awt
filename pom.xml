@@ -15,13 +15,53 @@
 	<name>SciJava UI: AWT</name>
 	<description>SciJava user interface components for Java AWT.</description>
 	<inceptionYear>2010</inceptionYear>
-
 	<licenses>
 		<license>
 			<name>Simplified BSD License</name>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+
+	<developers>
+		<developer>
+			<id>ctrueden</id>
+			<name>Curtis Rueden</name>
+			<email>ctrueden@wisc.edu</email>
+			<url>http://loci.wisc.edu/people/curtis-rueden</url>
+			<organization>UW-Madison LOCI</organization>
+			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>-6</timezone>
+		</developer>
+	</developers>
+
+	<mailingLists>
+		<mailingList>
+			<name>SciJava</name>
+			<subscribe>https://groups.google.com/group/scijava</subscribe>
+			<unsubscribe>https://groups.google.com/group/scijava</unsubscribe>
+			<post>scijava@googlegroups.com</post>
+			<archive>https://groups.google.com/group/scijava</archive>
+		</mailingList>
+	</mailingLists>
+
+	<scm>
+		<connection>scm:git:git://github.com/scijava/scijava-ui-awt</connection>
+		<developerConnection>scm:git:git@github.com:scijava/scijava-ui-awt</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/scijava/scijava-ui-awt</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>http://github.com/scijava/scijava-ui-awt/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/SciJava-UI-AWT/</url>
+	</ciManagement>
 
 	<dependencies>
 		<!-- SciJava dependencies -->
@@ -64,48 +104,4 @@ Institute of Molecular Cell Biology and Genetics.</organizationName>
 			</plugin>
 		</plugins>
 	</build>
-
-	<developers>
-		<developer>
-			<id>ctrueden</id>
-			<name>Curtis Rueden</name>
-			<email>ctrueden@wisc.edu</email>
-			<url>http://loci.wisc.edu/people/curtis-rueden</url>
-			<organization>UW-Madison LOCI</organization>
-			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
-			<roles>
-				<role>architect</role>
-				<role>developer</role>
-			</roles>
-			<timezone>-6</timezone>
-		</developer>
-	</developers>
-
-	<issueManagement>
-		<system>GitHub Issues</system>
-		<url>http://github.com/scijava/scijava-ui-awt/issues</url>
-	</issueManagement>
-
-	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/SciJava-UI-AWT/</url>
-	</ciManagement>
-
-	<mailingLists>
-		<mailingList>
-			<name>SciJava</name>
-			<subscribe>https://groups.google.com/group/scijava</subscribe>
-			<unsubscribe>https://groups.google.com/group/scijava</unsubscribe>
-			<post>scijava@googlegroups.com</post>
-			<archive>https://groups.google.com/group/scijava</archive>
-		</mailingList>
-	</mailingLists>
-
-	<scm>
-		<connection>scm:git:git://github.com/scijava/scijava-ui-awt</connection>
-		<developerConnection>scm:git:git@github.com:scijava/scijava-ui-awt</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/scijava/scijava-ui-awt</url>
-	</scm>
-
 </project>
