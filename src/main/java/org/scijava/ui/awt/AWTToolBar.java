@@ -32,6 +32,7 @@
 package org.scijava.ui.awt;
 
 import java.awt.Button;
+import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Graphics;
 import java.awt.Image;
@@ -129,6 +130,10 @@ public class AWTToolBar extends Panel implements ToolBar {
 				final int iconHeight = iconImage.getHeight(this);
 				g.drawImage(iconImage, (buttonWidth - iconWidth) / 2,
 					(buttonHeight - iconHeight) / 2, this);
+			}
+			@Override
+			public Dimension getPreferredSize() {
+				return new Dimension(32, 32);
 			}
 		};
 		if (iconURL == null) {
