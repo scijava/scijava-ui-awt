@@ -42,7 +42,6 @@ import org.scijava.app.AppService;
 import org.scijava.display.Display;
 import org.scijava.event.EventService;
 import org.scijava.menu.MenuService;
-import org.scijava.platform.AppEventService;
 import org.scijava.platform.event.AppMenusCreatedEvent;
 import org.scijava.plugin.Parameter;
 import org.scijava.plugin.Plugin;
@@ -69,9 +68,6 @@ public class AWTUI extends AbstractUserInterface {
 
 	@Parameter
 	private AppService appService;
-
-	@Parameter
-	private AppEventService appEventService;
 
 	@Parameter
 	private EventService eventService;
@@ -160,7 +156,7 @@ public class AWTUI extends AbstractUserInterface {
 
 			@Override
 			public void windowClosing(final WindowEvent e) {
-				appEventService.quit();
+				appService.getApp().quit();
 			}
 		});
 
