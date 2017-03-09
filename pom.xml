@@ -5,16 +5,22 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>9.0.0</version>
+		<version>14.0.0</version>
 		<relativePath />
 	</parent>
 
+	<groupId>org.scijava</groupId>
 	<artifactId>scijava-ui-awt</artifactId>
 	<version>0.1.6-SNAPSHOT</version>
 
 	<name>SciJava UI: AWT</name>
 	<description>SciJava user interface components for Java AWT.</description>
+	<url>https://imagej.net/SciJava UI: AWT</url>
 	<inceptionYear>2010</inceptionYear>
+	<organization>
+		<name>SciJava</name>
+		<url>https://scijava.org/</url>
+	</organization>
 	<licenses>
 		<license>
 			<name>Simplified BSD License</name>
@@ -51,6 +57,16 @@
 		</contributor>
 	</contributors>
 
+	<mailingLists>
+		<mailingList>
+			<name>SciJava</name>
+			<subscribe>https://groups.google.com/group/scijava</subscribe>
+			<unsubscribe>https://groups.google.com/group/scijava</unsubscribe>
+			<post>scijava@googlegroups.com</post>
+			<archive>https://groups.google.com/group/scijava</archive>
+		</mailingList>
+	</mailingLists>
+
 	<scm>
 		<connection>scm:git:git://github.com/scijava/scijava-ui-awt</connection>
 		<developerConnection>scm:git:git@github.com:scijava/scijava-ui-awt</developerConnection>
@@ -65,6 +81,15 @@
 		<system>Travis CI</system>
 		<url>https://travis-ci.org/scijava/scijava-ui-awt</url>
 	</ciManagement>
+
+	<properties>
+		<package-name>org.scijava.ui.awt</package-name>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>Board of Regents of the University of
+Wisconsin-Madison, Broad Institute of MIT and Harvard, and Max Planck
+Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
+		<license.projectName>SciJava UI components for Java AWT.</license.projectName>
+	</properties>
 
 	<dependencies>
 		<!-- SciJava dependencies -->
@@ -81,30 +106,4 @@
 			<classifier>swing</classifier>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-jar-plugin</artifactId>
-				<configuration>
-					<archive>
-						<manifest>
-							<packageName>org.scijava.ui.awt</packageName>
-						</manifest>
-					</archive>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>license-maven-plugin</artifactId>
-				<configuration>
-					<licenseName>bsd_2</licenseName>
-					<organizationName>Board of Regents of the University of
-Wisconsin-Madison, Broad Institute of MIT and Harvard, and Max Planck
-Institute of Molecular Cell Biology and Genetics.</organizationName>
-					<projectName>SciJava UI components for Java AWT.</projectName>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 </project>
