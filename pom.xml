@@ -15,7 +15,7 @@
 
 	<name>SciJava UI: AWT</name>
 	<description>SciJava user interface components for Java AWT.</description>
-	<url>https://imagej.net/SciJava UI: AWT</url>
+	<url>https://github.com/scijava/scijava-ui-awt</url>
 	<inceptionYear>2010</inceptionYear>
 	<organization>
 		<name>SciJava</name>
