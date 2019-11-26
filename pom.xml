@@ -5,11 +5,10 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>26.0.0</version>
+		<version>27.0.1</version>
 		<relativePath />
 	</parent>
 
-	<groupId>org.scijava</groupId>
 	<artifactId>scijava-ui-awt</artifactId>
 	<version>0.1.7-SNAPSHOT</version>
 
@@ -92,6 +91,8 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 		<releaseProfiles>deploy-to-scijava</releaseProfiles>
+
+		<miglayout-swing.version>5.2</miglayout-swing.version>
 	</properties>
 
 	<dependencies>
@@ -105,8 +106,8 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<dependency>
 			<!-- TODO: Decide if this is kosher... -->
 			<groupId>com.miglayout</groupId>
-			<artifactId>miglayout</artifactId>
-			<classifier>swing</classifier>
+			<artifactId>miglayout-swing</artifactId>
+			<version>${miglayout-swing.version}</version>
 		</dependency>
 	</dependencies>
 </project>
