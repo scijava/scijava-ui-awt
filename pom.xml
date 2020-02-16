@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>scijava-ui-awt</artifactId>
-	<version>0.1.7-SNAPSHOT</version>
+	<version>0.1.7</version>
 
 	<name>SciJava UI: AWT</name>
 	<description>SciJava user interface components for Java AWT.</description>
@@ -69,7 +69,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/scijava/scijava-ui-awt</connection>
 		<developerConnection>scm:git:git@github.com:scijava/scijava-ui-awt</developerConnection>
-		<tag>HEAD</tag>
+		<tag>scijava-ui-awt-0.1.7</tag>
 		<url>https://github.com/scijava/scijava-ui-awt</url>
 	</scm>
 	<issueManagement>
