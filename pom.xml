@@ -104,7 +104,6 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 
 		<!-- Third-party dependencies -->
 		<dependency>
-			<!-- TODO: Decide if this is kosher... -->
 			<groupId>com.miglayout</groupId>
 			<artifactId>miglayout-swing</artifactId>
 			<version>${miglayout-swing.version}</version>
