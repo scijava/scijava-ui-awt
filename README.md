@@ -1,4 +1,4 @@
-[![](https://travis-ci.org/scijava/scijava-ui-awt.svg?branch=master)](https://travis-ci.org/scijava/scijava-ui-awt)
+[![](https://github.com/scijava/scijava-ui-awt/actions/workflows/build-main.yml/badge.svg)](https://github.com/scijava/scijava-ui-awt/actions/workflows/build-main.yml)
 
 SciJava AWT UI components
 -------------------------
