@@ -108,5 +108,13 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 			<artifactId>miglayout-swing</artifactId>
 			<version>${miglayout-swing.version}</version>
 		</dependency>
+
+		<!-- Test dependencies -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
+
 </project>
